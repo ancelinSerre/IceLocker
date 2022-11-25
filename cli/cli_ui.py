@@ -41,9 +41,9 @@ def show_password_strength(strength: str, entropy: float, colors=True) -> None:
     """
     if colors:
         colorized_strength = colorize_strength(strength)
-        print(f"Strength: {colorized_strength} ; Entropy {entropy:.0f}")
+        print(f"Strength: {colorized_strength} ; Entropy {entropy:.0f} bits")
     else:
-        print(f"Strength: {strength} ; Entropy {entropy:.0f}")
+        print(f"Strength: {strength} ; Entropy {entropy:.0f} bits")
 
 
 def show_password(password: str, colors=True) -> None:
