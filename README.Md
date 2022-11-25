@@ -27,7 +27,7 @@ You are now ready to generate passwords 😊
 ```
 > python password_gen.py
 Generated password: 9a>E5DH3
-Strength: Reasonable ; Entropy 52
+Strength: Reasonable ; Entropy 52 bits
 ```
 
 For information:
