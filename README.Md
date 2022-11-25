@@ -24,7 +24,7 @@
 
 You are now ready to generate passwords 😊
 
-```bash
+```
 > python password_gen.py
 Generated password: 9a>E5DH3
 Strength: Reasonable ; Entropy 52
